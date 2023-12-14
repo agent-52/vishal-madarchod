@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="heading1">Meet <em>VISHAL MANGROLE</em> </div>
+  <div class="heading2">"The Sexiest Person Of Bhaskar Hostel" </div>
+
+  <div class="hothead">Some Dick Melting Images Of Our HusanPari</div>
+  <div class="hotbox">
+    <img src="./images/vishal1.jpg" alt="" class="hoti">
+    <img src="./images/vishal3.jpg" alt="" class="hoti">
+    <img src="./images/vishal2.jpg" alt="" class="hoti">
+    <img src="./images/vishal4.jpg" alt="" class="hoti">
+  </div>
+
+  
+
+  <div class="clienthead">Few Satisfied Costumers :-</div>
+  <div class="costumers">
+    <div class="costumer2">
+      <img src="./images/pranshu-cummed.jpg" alt="" class="ci">
+      <div class="c2name">Pranshu</div>
+      <div class="designation">(The Fatt Ass Boy)</div>
+    </div>
+    <div class="costumer2">
+      <img src="./images/ankit.jpg" alt="" class="ci">
+      <div class="c2name">Ankit</div>
+      <div class="designation"> (The Nigerian Bull)</div>
+    </div>
+    <div class="costumer2">
+      <img src="./images/abhay2.jpg" alt="" class="ci">
+      <div class="c2name">Abhay</div>
+      <div class="designation">(The Cheetah)</div>
+    </div>
+  </div>
+
+  <div class="bookhim">BOOK HIM FOR A FUN NIGHT</div>
+  <div class="clientnum">select number of people for the <em>GANGBANG</em></div>
+  <div class="number">
+    <button onclick="
+      if(amount > 0){
+        amount = amount - 1;
+        numbutton.innerHTML = amount;
+
+      }">-</button>
+    <button class="amountbutton"></button>
+    <button onclick="
+    amount = amount + 1;
+    numbutton.innerHTML = amount;
+
+    ">+</button>
+  </div>
+
+  <div>
+    <label for="position"> Your Preffered Position</label>
+    <select name="" id="position">
+      <option value="">Doggy style</option>
+      <option value="">Missionary</option>
+      <option value="">Cow girl</option>
+      <option value="">reverse-cowgirl</option>
+      <option value="">Sleeping-beauty</option>
+    </select>
+  </div>
+  <button class="bookbutton" onclick="
+  if(bookingtext.innerHTML === 'HIRE NOW'){
+    if(amount > 0){
+    bookingtext.innerHTML = 'HIRED!!';
+    document.querySelector('p').innerHTML = `Congratulation You Will Soon Be Treated By One Of The Rarerest and Sexiest Prostitute of DAVV`
+    }else if(amount = 0){
+      document.querySelector('p').innerHTML = `abbe chutiye vo khud ke sath thodi sex karega number ko kam se kam 1 to kar`
+
+    }
+
+  }else if(bookingtext.innerHTML = 'HIRED!!'){
+    bookingtext.innerHTML = 'HIRE NOW';
+    document.querySelector('p').innerHTML = ''
+
+  }">HIRE NOW</button>
+  <p></p>
+
+  <div class="fantasy">For more info just find him he will probably be in pranshu's bed </div>
+
+  <script>
+    let bookingtext = document.querySelector('.bookbutton')
+    numbutton = document.querySelector('.amountbutton')
+    let amount = 0;
+    
+    console.log(amount);
+   
+    
+  </script>
+
+
+  
+</body>
+</html>

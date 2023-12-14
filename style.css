@@ -1,0 +1,90 @@
+body{
+  margin: 0px;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.hotbox{
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.hoti{
+  width: 100%;
+}
+.heading1{
+  font-size: x-large;
+  margin-top: 1rem;
+}
+em{
+  font-weight: bold;
+  color: pink;
+}
+.heading2{
+  font-size: larger;
+  color: rgb(236, 153, 167);
+}
+.hothead{
+  color: rgb(245, 51, 116);
+  font-weight: bolder;
+  font-size: xx-large;
+  text-align: center;
+}
+.clienthead{
+  font-size: x-large;
+  color: pink;
+  font-weight: bold;
+}
+.costumers{
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+
+}
+.costumer2{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.ci{
+  width: 100%;
+  height: 70%;
+}
+.c2name{
+  text-align: center;
+  font-size: x-large;
+  color: rgb(245, 135, 135);
+}
+.designation{
+  text-align: center;
+  color: palegoldenrod;
+}
+.bookhim{
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(245, 51, 116);
+  font-weight: 900;
+}
+.clientnum{
+  font-size: larger;
+  text-align: center;
+}
+.fantasy{
+  text-align: center;
+  font-size: x-large;
+  color: rgb(249, 229, 233);
+}
+button{
+  background-color: pink;
+  font-weight: bolder;
+}
+p{
+  color: yellow;
+  font-size: x-large;
+  font-weight: 600;
+  text-align: center;
+}
